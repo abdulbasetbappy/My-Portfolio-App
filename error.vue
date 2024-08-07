@@ -1,6 +1,6 @@
 <script setup>
   const pageMeta = {
-    title: "Page Not Found · Dawit",
+    title: "Page Not Found · Bappy",
     description: "This page doesn't exist."
   };
 
@@ -10,7 +10,7 @@
     ogType: "website",
     ogLocale: "en_US",
     twitterCard: "summary",
-    twitterCreator: "@oneminch"
+    twitterCreator: "@abdullahbappy",
   };
 
   useSeoMeta({

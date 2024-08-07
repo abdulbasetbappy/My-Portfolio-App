@@ -11,7 +11,7 @@
     ogType: "website",
     ogLocale: "en_US",
     twitterCard: "summary",
-    twitterCreator: "@oneminch"
+    twitterCreator: "@abdullahbappy",
   };
 
   useSeoMeta({
