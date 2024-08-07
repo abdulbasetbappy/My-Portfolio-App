@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       },
       meta: [
         { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
-        { name: "author", content: "Bappy (@abdulbasetbappy)" },
+        { name: "author", content: "Dawit (@oneminch)" },
         { name: "robots", content: "index, follow" }
       ],
       link: [
