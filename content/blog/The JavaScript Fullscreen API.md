@@ -5,9 +5,9 @@ description: A Simple Introduction to the JavaScript Fullscreen API
 tags:
   - javascript
   - web-apis
-image: /content/cover/js-fullscreen-api.png
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/js-fullscreen-api.png
-canonical_url: https://minch.dev/blog/js-fullscreen-api
+image: '/content/cover/js-fullscreen-api.png'
+cover_image: '/content/cover/js-fullscreen-api.png'
+canonical_url: https://abdulbasetbappy.dev/blog/js-fullscreen-api
 published_on: "2023-10-23"
 ---
 

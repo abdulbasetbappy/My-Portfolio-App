@@ -29,6 +29,7 @@
     <p class="mb-6 text-zinc-700 dark:text-zinc-300">
       I build things in the open. Check out
       <nuxt-link
+        target="_blank"
         to="https://github.com/abdulbasetbappy"
         class="border-b-[.1rem] border-b-green-500/75 focus-visible:global-focus"
         external

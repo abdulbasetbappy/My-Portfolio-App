@@ -6,9 +6,9 @@ tags:
   - javascript
   - web-apis
   - fetch-api
-image: /content/cover/the-javascript-fetch-api.png
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/the-javascript-fetch-api.png
-canonical_url: https://minch.dev/blog/the-javascript-fetch-api
+image: "/content/cover/the-javascript-fetch-api.png"
+cover_image: "/content/cover/the-javascript-fetch-api.png"
+canonical_url: https://abdulbasetbappy.dev/blog/the-javascript-fetch-api
 published_on: "2023-10-25"
 ---
 

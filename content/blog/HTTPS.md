@@ -8,8 +8,8 @@ tags:
   - networking
   - ssl
 image: "/content/cover/https.png"
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/https.png
-canonical_url: https://minch.dev/blog/https
+cover_image: "/content/cover/https.png"
+canonical_url: https://abdulbasetbappy.dev/blog/https
 series: Computer Networks
 navOrder: 3
 published_on: "2022-03-28"

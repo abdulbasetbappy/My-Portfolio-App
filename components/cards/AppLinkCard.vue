@@ -17,9 +17,9 @@
 
 <!-- Link: Card -->
 <template>
-  <nuxt-link
+  <Nuxt-Link
     class="relative flex flex-col items-center justify-center px-2 pt-2 pb-3 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
-    :target="isExternalUrl || isDownloadLink ? '_blank' : '_self'"
+    :target= "isExternalUrl || isDownloadLink ? '_blank' : '_self'"
     :to="url"
     :download="downloadLabel"
     external
@@ -41,5 +41,5 @@
       aria-label="Opens Download Modal For File"
       class="absolute flex-shrink-0 text-green-500 top-1 right-1"
     />
-  </nuxt-link>
+  </Nuxt-Link>
 </template>

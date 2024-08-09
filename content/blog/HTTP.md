@@ -9,8 +9,8 @@ tags:
   - https
   - networking
 image: "/content/cover/http.png"
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/http.png
-canonical_url: https://minch.dev/blog/http
+cover_image:  "/content/cover/http.png"
+canonical_url: https://abdulbasetbappy.dev/blog/http
 series: Computer Networks
 navOrder: 2
 published_on: "2022-03-20"

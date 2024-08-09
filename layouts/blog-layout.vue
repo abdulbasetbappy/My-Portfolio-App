@@ -31,6 +31,15 @@
 
           LeetCode
         </nuxt-link>
+        <nuxt-link
+          class="flex items-center justify-between px-3 py-1 no-underline duration-150 border rounded-md focus-visible:global-focus bg-zinc-200 dark:bg-zinc-700 dark:text-zinc-200 border-zinc-300 dark:border-zinc-600"
+          activeClass="bg-zinc-600/10 dark:bg-zinc-700/75 md:bg-zinc-200 md:dark:bg-zinc-700/75 focus-visible:ring-transparent"
+          to="/Codepen"
+        >
+          <Icon name="heroicons:command-line-16-solid" class="mr-2" />
+
+          Codepen
+        </nuxt-link>
 
         <app-theme-toggle class="ml-auto" />
       </nav>

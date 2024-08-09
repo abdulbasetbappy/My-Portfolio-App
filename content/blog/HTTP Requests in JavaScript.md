@@ -6,9 +6,9 @@ tags:
   - javascript
   - web-apis
   - http-requests
-image: /content/cover/http-requests-in-javascript.png
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/http-requests-in-javascript.png
-canonical_url: https://minch.dev/blog/http-requests-in-javascript
+image: '/content/cover/http-requests-in-javascript.png'
+cover_image: '/content/cover/http-requests-in-javascript.png'
+canonical_url: https://abdulbasetbappy.dev/blog/http-requests-in-javascript
 published_on: "2023-10-24"
 ---
 

@@ -9,8 +9,8 @@ tags:
   - vue
   - github
 image: "/content/cover/nuxt-content-with-remote-markdown.png"
-cover_image: "https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/nuxt-content-with-remote-markdown.png"
-canonical_url: "https://minch.dev/blog/nuxt-content-with-remote-markdown"
+cover_image: "/content/cover/nuxt-content-with-remote-markdown.png"
+canonical_url: "https://abdulbasetbappy.dev/blog/nuxt-content-with-remote-markdown"
 head:
   meta:
     - name: robots

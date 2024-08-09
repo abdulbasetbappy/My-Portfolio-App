@@ -201,11 +201,14 @@
           label="LeetCode"
           icon="fluent-emoji:teacup-without-handle"
           url="/leetcode"
+          
         ></app-link-card>
         <app-link-card
-          label="Codepen"
-          icon="fluent-emoji:pen"
-          url="/Codepens"
+          label="Download Resume"
+          icon="fluent-emoji:bookmark-tabs"
+          downloadLabel="Bappy's Resume"
+          url="/Resume.pdf"
+          isDownloadLink="true"
         ></app-link-card>
         <app-link-card
           label="Live Meet"

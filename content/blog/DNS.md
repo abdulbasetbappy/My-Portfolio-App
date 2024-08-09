@@ -8,8 +8,8 @@ tags:
   - https
   - networking
 image: "/content/cover/dns.png"
-cover_image: https://raw.githubusercontent.com/oneminch/portfolio/main/public/content/cover/dns.png
-canonical_url: https://minch.dev/blog/dns
+cover_image: "/content/cover/dns.png"
+canonical_url: https://abdulbasetbappy.dev/blog/dns
 series: Computer Networks
 navOrder: 1
 published_on: "2022-02-21"

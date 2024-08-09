@@ -1,52 +1,52 @@
 {
   "body": [
     {
-      "name": "Deadlines",
-      "description": "An offline deadline tracker I built to track school deadlines",
-      "liveUrl": "https://deadlines.minch.dev",
+      "name": "QR Code Generator",
+      "description": "QR code generator: Vue + TailwindCSS",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
       "icon": "vuedotjs",
       "visual": true
     },
     {
-      "name": "FontSearch",
-      "description": "A search engine for web fonts available on Fontsource",
-      "liveUrl": "https://oneminch.github.io/FontSearch/",
+      "name": "Weather App",
+      "description": "Weather app: Vue + TailwindCSS + OpenWeatherMap API + Pinia",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "icon": "vuedotjs",
+      "visual": true
+    },
+    {
+      "name": "To Do List",
+      "description": "To do list: Nuxt.js + TailwindCSS + Pinia",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "icon": "nuxtdotjs",
+      "visual": true
+    },
+    {
+      "name": "Resturant UI",
+      "description": "Resturant UI: Nuxt.js + TailwindCSS",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "icon": "nuxtdotjs",
+      "visual": true
+    },
+    {
+      "name": "Coupon Generator",
+      "description": "Coupon Code Genarator: Vue + TailwindCSS",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "icon": "vuedotjs",
+      "visual": true
+    },
+    {
+      "name": "Tic Tac Toe",
+      "description": "Tic Tac Toe: Javascript + TailwindCSS",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
       "icon": "javascript",
-      "visual": true
-    },
-    {
-      "name": "GameSearch",
-      "description": "A search engine for free-to-play games: AlpineJS + WindiCSS",
-      "liveUrl": "https://oneminch.github.io/GameSearch/",
-      "icon": "alpinedotjs",
-      "visual": true
-    },
-    {
-      "name": "Netflix UI Clone",
-      "description": "A pixel-perfect frontend clone of Netflix made with React",
-      "liveUrl": "https://oneminch.github.io/Netflix-Clone/",
-      "icon": "react",
-      "visual": true
-    },
-    {
-      "name": "Tomatoes",
-      "description": "Pomodoro timer: Vue + TailwindCSS",
-      "liveUrl": "https://tomatoes.vercel.app",
-      "icon": "vuedotjs",
-      "visual": true
-    },
-    {
-      "name": "Memory Manager",
-      "description": "A memory manager implemented in C++ (malloc & free)",
-      "liveUrl": "https://replit.com/@oneminch/os-memory-manager",
-      "icon": "cplusplus",
       "visual": false
     },
     {
-      "name": "Producer Consumer",
-      "description": "A program to concurrently check if a tree is both a BST and complete (C++)",
-      "liveUrl": "https://replit.com/@oneminch/producer-consumer",
-      "icon": "cplusplus",
+      "name": "Calculator",
+      "description": "Calculator: Javascript + TailwindCSS",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "icon": "javascript",
       "visual": false
     }
   ]
