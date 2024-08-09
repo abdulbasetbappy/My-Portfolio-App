@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       },
       meta: [
         { "http-equiv": "X-UA-Compatible", content: "IE=edge" },
-        { name: "author", content: "Dawit (@oneminch)" },
+        { name: "author", content: "Bappy (@abdulbasetbappy)" },
         { name: "robots", content: "index, follow" }
       ],
       link: [
@@ -37,9 +37,8 @@ export default defineNuxtConfig({
       script: [
         {
           type: "text/partytown",
-          src: "https://measure.minch.dev/minch-measure",
+          src: "https://abdulbasetbappy.dev",
           async: true,
-          "data-website-id": "1e0e9daa-a25b-4943-af4e-68c91b2d3c72"
         }
       ]
     },
@@ -71,7 +70,7 @@ export default defineNuxtConfig({
   routeRules: {
     "/": { prerender: true },
     "/**": { prerender: true },
-    "/bookmarks": { isr: 3600 }
+    "/Contacts": { isr: 3600 }
   },
   tailwindcss: {
     config: {
@@ -88,6 +87,6 @@ export default defineNuxtConfig({
   },
   telemetry: false,
   turnstile: {
-    siteKey: "0x4AAAAAAABlDwSHN3HVmFWH"
+    siteKey: "0x4AAAA818569AAABlDwSHN3HVmFWH"
   }
 });

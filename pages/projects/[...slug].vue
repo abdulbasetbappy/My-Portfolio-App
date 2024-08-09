@@ -90,6 +90,7 @@
         <!-- Relevant Links -->
         <div class="flex items-center space-x-2 text-xl">
           <nuxt-link
+            target="_blank"
             :to="doc.source_url"
             title="Source Code"
             aria-label="Source Code"
@@ -98,6 +99,7 @@
             <Icon name="simple-icons:github" />
           </nuxt-link>
           <nuxt-link
+            target="_blank"
             :to="doc.live_url"
             title="Live Preview"
             aria-label="Live Preview"

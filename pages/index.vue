@@ -51,8 +51,8 @@
       </h1>
       <p class="mb-4 text-xl font-medium text-zinc-700 dark:text-zinc-300">
         I craft
-        <span class="highlight">delightful</span>
-        and <span class="highlight">accessible</span>
+        <span class="highlight">Efficient</span>
+        and <span class="highlight">User-Friendly</span>
         systems.
       </p>
        <p class="my-2 text-zinc-700 dark:text-zinc-300">
@@ -63,7 +63,7 @@
     </section>
     <!-- Skills -->
     <section>
-      <h2 class="py-2 mb-1 text-xl font-semibold">Skills</h2>
+      <h2 class="py-2 mb-1 text-xl font-semibold">My Skills</h2>
       <!-- Primary Tools -->
       <p class="mb-3 text-zinc-700 dark:text-zinc-300">
         My specialty is <span class="subtle-highlight">solving problems</span>,
@@ -178,6 +178,7 @@
     <app-divider />
     <!-- Other Links -->
     <section class="mb-2 space-y-2">
+      <h2 class="py-2 mb-1 text-xl font-semibold">Others</h2>
       <div
         class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 lg:grid-flow-col gap-2 lg:[&_:first-child]:row-span-2 [&_:first-child]:col-span-2 lg:[&_:first-child]:col-span-1"
       >
@@ -220,7 +221,6 @@
         ></app-link-card>
       </div>
     </section>
-    <app-footer />
   </article>
 </template>
 
