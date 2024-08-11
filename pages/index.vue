@@ -1,43 +1,48 @@
 <script setup>
-  definePageMeta({
-    title: "Bappy · Frotnend Engineer",
-    description: "I craft delightful and accessible systems."
-  });
+definePageMeta({
+  title: "Bappy · Frotnend Engineer",
+  description: "I craft delightful and accessible systems.",
+});
 
-  useHead({
-    titleTemplate: ""
-  });
+useHead({
+  titleTemplate: "",
+});
 
-  const route = useRoute();
+const route = useRoute();
 
-  useSeoMeta({
-    ogTitle: () => route.meta.title,
-    twitterTitle: () => route.meta.title
-  });
+useSeoMeta({
+  ogTitle: () => route.meta.title,
+  twitterTitle: () => route.meta.title,
+});
 
-  const skillset = ref({
-    essentials: [
-      "TypeScript",
-      "Nuxt.Js",
-      "Vue.Js",
-      "Tailwind CSS",
-      "Node.js",
-      "MongoDB"
-    ],
-    tinker: ["GraphQL Integration", "Web Performance Optimization", "State Management", "Reuseability"]
-  });
+const skillset = ref({
+  essentials: [
+    "TypeScript",
+    "Nuxt.Js",
+    "Vue.Js",
+    "Tailwind CSS",
+    "Node.js",
+    "MongoDB",
+  ],
+  tinker: [
+    "GraphQL Integration",
+    "Web Performance Optimization",
+    "State Management",
+    "Reuseability",
+  ],
+});
 
-  // Fetch latest 2 blog posts
-  const { pending: blogsPending, data: blogPosts } = await useLazyAsyncData(
-    "featured-posts",
-    () => queryContent("/blog").sort({ published_on: -1 }).limit(2).find()
-  );
+// Fetch latest 2 blog posts
+const { pending: blogsPending, data: blogPosts } = await useLazyAsyncData(
+  "featured-posts",
+  () => queryContent("/blog").sort({ published_on: -1 }).limit(2).find()
+);
 
-  // Fetch 2 featured projects
-  const { pending: projectsPending, data: projects } = await useLazyAsyncData(
-    "featured-projects",
-    () => queryContent("/projects").limit(2).find()
-  );
+// Fetch 2 featured projects
+const { pending: projectsPending, data: projects } = await useLazyAsyncData(
+  "featured-projects",
+  () => queryContent("/projects").limit(2).find()
+);
 </script>
 
 <!-- Landing Page -->
@@ -45,21 +50,38 @@
   <article class="[&>*]:my-4 first:[&>*]:mt-0 [&>hr]:my-6 md:[&>hr]:my-10">
     <!-- Introduction -->
     <section>
-      <h1 class="mb-4 text-2xl font-semibold">
-        Hi, I'm Bappy
-        <span id="wave">👋</span>
-      </h1>
+      <div class="flex items-center justify-between">
+        <h1 class="mb-4 text-2xl font-semibold">
+          Hi, I'm Bappy
+          <span id="wave">👋</span>
+        </h1>
+        <!--Download Resume-->
+        <a
+          class="relative flex flex-col items-center justify-center px-3 pt-2 pb-2 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
+          href="/Resume.pdf"
+          download="Bappy's Resume"
+        >
+          <span class="mr-[1.25rem]">Resume</span>
+          <Icon
+            name="heroicons:arrow-down-tray-20-solid"
+            size="1.25rem"
+            aria-label="Opens Download Modal For File"
+            class="absolute flex-shrink-0 text-green-500 top-2 right-2"
+          />
+        </a>
+      </div>
+
       <p class="mb-4 text-xl font-medium text-zinc-700 dark:text-zinc-300">
         I craft
         <span class="highlight">Efficient</span>
         and <span class="highlight">User-Friendly</span>
         systems.
       </p>
-       <p class="my-2 text-zinc-700 dark:text-zinc-300">
+      <p class="my-2 text-zinc-700 dark:text-zinc-300">
         I am
         <span class="subtle-highlight">currently seeking opportunities</span>
         to share my passion and expertise.
-      </p> 
+      </p>
     </section>
     <!-- Skills -->
     <section>
@@ -182,6 +204,7 @@
       <div
         class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 lg:grid-flow-col gap-2 lg:[&_:first-child]:row-span-2 [&_:first-child]:col-span-2 lg:[&_:first-child]:col-span-1"
       >
+        <!--Send Message-->
         <div
           class="flex items-center justify-center p-[1px] overflow-hidden font-medium shrink-0 relative -z-0 before:content-[''] before:absolute before:-inset-[1px] before:-z-10 before:bg-gradient-to-b before:from-green-500 before:to-lime-400 rounded-[calc(.375rem+1px)] dark:before:opacity-60 focus-within:ring-2 ring-offset-0 focus-within:ring-green-400 focus-within:ring-opacity-75"
         >
@@ -197,25 +220,34 @@
             >
           </div>
         </div>
-        <app-link-card
-          label="LeetCode"
-          icon="fluent-emoji:teacup-without-handle"
-          url="/leetcode"
-          
-        ></app-link-card>
-        <app-link-card
-          label="Download Resume"
-          icon="fluent-emoji:bookmark-tabs"
-          downloadLabel="Bappy's Resume"
-          url="/Resume.pdf"
-          isDownloadLink="true"
-        ></app-link-card>
+        <!--LeetCode-->
+        <Nuxt-Link
+          class="relative flex flex-col items-center justify-center px-2 pt-2 pb-3 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
+          to="/leetcode"
+        >
+          <Icon
+            name="fluent-emoji:teacup-without-handle"
+            size="2.5rem"
+            class="p-1 mb-2"
+          />
+          <span>LeetCode</span>
+        </Nuxt-Link>
+        <!--Codepen-->
+        <Nuxt-Link
+          class="relative flex flex-col items-center justify-center px-2 pt-2 pb-3 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
+          to="/Codepen"
+        >
+          <Icon name="fluent-emoji:pen" size="2.5rem" class="p-1 mb-2" />
+          <span>Codepen</span>
+        </Nuxt-Link>
+        <!--Live Meet-->
         <app-link-card
           label="Live Meet"
           icon="fluent-emoji:alarm-clock"
           :is-external-url="true"
           url="https://calendly.com/"
         ></app-link-card>
+        <!--Youtube-->
         <app-link-card
           label="Youtube"
           icon="fluent-emoji:video-camera"
@@ -228,72 +260,72 @@
 </template>
 
 <style scoped>
-  #contact-btn {
-    animation: 1500ms linear 2000ms infinite pulse;
-  }
+#contact-btn {
+  animation: 1500ms linear 2000ms infinite pulse;
+}
 
-  @keyframes pulse {
-    0% {
-      box-shadow: #4ade80 0 0 0 0;
-    }
-    50% {
-      box-shadow: #4ade8000 0 0 0 0.5rem;
-    }
+@keyframes pulse {
+  0% {
+    box-shadow: #4ade80 0 0 0 0;
   }
+  50% {
+    box-shadow: #4ade8000 0 0 0 0.5rem;
+  }
+}
 
-  #wave {
-    @apply inline-block ml-1 origin-[70%_70%] animate-[10s_ease_2s_infinite_wave] hover:animate-[1.5s_ease_hoverwave];
-  }
+#wave {
+  @apply inline-block ml-1 origin-[70%_70%] animate-[10s_ease_2s_infinite_wave] hover:animate-[1.5s_ease_hoverwave];
+}
 
-  @keyframes wave {
-    0% {
-      transform: rotate(0deg);
-    }
-    2.5%,
-    7.5% {
-      transform: rotate(14deg);
-    }
-    5% {
-      transform: rotate(-8deg);
-    }
-    10% {
-      transform: rotate(-4deg);
-    }
-    12.5% {
-      transform: rotate(10deg);
-    }
-    15% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
   }
+  2.5%,
+  7.5% {
+    transform: rotate(14deg);
+  }
+  5% {
+    transform: rotate(-8deg);
+  }
+  10% {
+    transform: rotate(-4deg);
+  }
+  12.5% {
+    transform: rotate(10deg);
+  }
+  15% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 
-  @keyframes hoverwave {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(14deg);
-    }
-    20% {
-      transform: rotate(-8deg);
-    }
-    30% {
-      transform: rotate(14deg);
-    }
-    40% {
-      transform: rotate(-4deg);
-    }
-    50% {
-      transform: rotate(10deg);
-    }
-    60% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
+@keyframes hoverwave {
+  0% {
+    transform: rotate(0deg);
   }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 </style>
