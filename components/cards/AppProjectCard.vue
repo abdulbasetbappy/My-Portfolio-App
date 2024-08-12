@@ -45,7 +45,7 @@
       </template>
       <template v-else>
         <Icon
-          :name="`simple-icons:${icon}`"
+          :name="`${icon}`"
           class="w-full h-full p-3 bg-zinc-100 dark:bg-zinc-600 opacity-95 dark:opacity-90 rounded-xl"
         />
       </template>
