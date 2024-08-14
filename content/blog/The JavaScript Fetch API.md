@@ -9,6 +9,17 @@ tags:
 image: "/content/cover/the-javascript-fetch-api.png"
 cover_image: "/content/cover/the-javascript-fetch-api.png"
 canonical_url: https://abdulbasetbappy.dev/blog/the-javascript-fetch-api
+head:
+  meta:
+    - name: robots
+      content: "index, follow"
+    - name: author
+      content: Bappy (@abdulbasetbappy)
+    - property: "og:type"
+      content: article
+    - name: "twitter:card"
+      content: summary_large_image
+published: true
 published_on: "2023-10-25"
 ---
 

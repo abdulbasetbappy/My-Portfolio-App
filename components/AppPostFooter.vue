@@ -8,7 +8,7 @@
 
     <nuxt-link
       class="focus-visible:global-focus"
-      to="https://facebook.com/abdulbasetbappy"
+      to="https://facebook.com/abdulbasetbappy.fb"
       target="_blank"
       external
       >Twitter

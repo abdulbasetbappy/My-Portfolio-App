@@ -11,6 +11,17 @@ tags:
 image: "/content/cover/http.png"
 cover_image:  "/content/cover/http.png"
 canonical_url: https://abdulbasetbappy.dev/blog/http
+head:
+  meta:
+    - name: robots
+      content: "index, follow"
+    - name: author
+      content: Bappy (@abdulbasetbappy)
+    - property: "og:type"
+      content: article
+    - name: "twitter:card"
+      content: summary_large_image
+published: true
 series: Computer Networks
 navOrder: 2
 published_on: "2022-03-20"

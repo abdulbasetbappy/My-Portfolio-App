@@ -8,6 +8,17 @@ tags:
 image: '/content/cover/js-fullscreen-api.png'
 cover_image: '/content/cover/js-fullscreen-api.png'
 canonical_url: https://abdulbasetbappy.dev/blog/js-fullscreen-api
+head:
+  meta:
+    - name: robots
+      content: "index, follow"
+    - name: author
+      content: Bappy (@abdulbasetbappy)
+    - property: "og:type"
+      content: article
+    - name: "twitter:card"
+      content: summary_large_image
+published: true
 published_on: "2023-10-23"
 ---
 

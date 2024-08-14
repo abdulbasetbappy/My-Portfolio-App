@@ -10,6 +10,17 @@ tags:
 image: "/content/cover/deno-vs-node.png"
 cover_image: "/content/cover/deno-vs-node.png"
 canonical_url: https://abdulbasetbappy.dev/blog/deno-vs-node
+head:
+  meta:
+    - name: robots
+      content: "index, follow"
+    - name: author
+      content: Bappy (@abdulbasetbappy)
+    - property: "og:type"
+      content: article
+    - name: "twitter:card"
+      content: summary_large_image
+published: true
 published_on: "2023-08-24"
 ---
 

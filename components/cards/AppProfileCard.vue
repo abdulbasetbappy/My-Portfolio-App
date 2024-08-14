@@ -1,7 +1,7 @@
 <script setup>
   const profiles = {
     GitHub: "https://github.com/abdulbasetbappy",
-    Facebook: "https://www.facebook.com/abdulbasetbappy.info",
+    Facebook: "https://www.facebook.com/abdulbasetbappy.fb",
     LinkedIn: "https://linkedin.com/in/abdulbasetbappy"
   };
   const Details = {

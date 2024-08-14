@@ -24,6 +24,7 @@
     ogUrl: () => `https://abdulbasetbappy.dev${route.path}`,
     ...serverMeta
   });
+
 </script>
 
 <!-- Default Layout -->

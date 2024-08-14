@@ -57,7 +57,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
         </h1>
         <!--Download Resume-->
         <a
-          class="relative flex flex-col items-center justify-center sm:px-2  lg:px-3 sm:pt-2 lg:pt-2 pb-2 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
+          class="relative w-28 flex flex-col items-center justify-center sm:px-2 lg:px-3 sm:pt-2 lg:pt-2 pb-1 pt-1 sm:pb-2 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
           href="/Resume.pdf"
           download="Bappy's Resume"
         >
@@ -66,7 +66,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
             name="heroicons:arrow-down-tray-20-solid"
             size="1.25rem"
             aria-label="Opens Download Modal For File"
-            class="absolute flex-shrink-0 text-green-500 top-2 right-2"
+            class="absolute flex-shrink-0 text-green-500 sm:top-2 top-1 right-2"
           />
         </a>
       </div>
@@ -245,7 +245,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
           label="Live Meet"
           icon="fluent-emoji:alarm-clock"
           :is-external-url="true"
-          url="https://calendly.com/"
+          url="https://calendly.com/abdulbasetbappy-pro/30min"
         ></app-link-card>
         <!--Youtube-->
         <app-link-card

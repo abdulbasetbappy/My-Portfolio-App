@@ -16,7 +16,7 @@ head:
     - name: robots
       content: "index, follow"
     - name: author
-      content: Dawit (@oneminch)
+      content: Bappy (@abdulbasetbappy)
     - property: "og:type"
       content: article
     - name: "twitter:card"
