@@ -61,11 +61,24 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@nuxtjs/partytown",
-    "@nuxtjs/turnstile",
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
-    "nuxt-icon"
+    "nuxt-icon",
+    ['nuxt-mail', {
+      message: {
+        to: 'abdulbasetbappy@hotmail.com',
+        from: 'no-reply@abdulbasetbappy.dev', // Set a default "from" address
+      },
+      smtp: {
+        host: "smtp.gmail.com", // Replace with your SMTP host
+        port: 587, // or 465 for SSL
+        auth: {
+          user: "abdulbasetbappy.official@gmail.com",
+          pass: "bwvw dzsq etao mpct",
+        },
+      },
+    }],
   ],
   routeRules: {
     "/": { prerender: true },
@@ -86,7 +99,4 @@ export default defineNuxtConfig({
     }
   },
   telemetry: false,
-  turnstile: {
-    siteKey: "0x4AAAA818569AAABlDwSHN3HVmFWH"
-  }
 });

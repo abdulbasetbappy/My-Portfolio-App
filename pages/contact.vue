@@ -4,10 +4,6 @@
     description: "Let's talk. Send me a message using the form."
   });
 
-  // Turnstile States
-  const turnstile = ref();
-  const turnstileToken = ref("");
-
   // Feedback card props
   const feedbackVisible = ref(false);
   const feedbackMessage = ref("");
@@ -24,39 +20,36 @@
     isSuccessful.value = success;
     feedbackMessage.value = feedback;
     feedbackVisible.value = true;
-    turnstile.value?.reset();
   };
 
   async function submit(e) {
-    // Reset state
-    isSubmitting.value = true;
-    feedbackVisible.value = false;
-    feedbackMessage.value = "";
-    isSuccessful.value = true;
+  isSubmitting.value = true;
+  feedbackVisible.value = false;
+  feedbackMessage.value = "";
+  isSuccessful.value = true;
 
-    // Validate required input fields
-    if (!senderName.value.trim() || !senderMessage.value.trim()) {
-      afterFormSubmit("A Required Field is Empty", false);
-      return;
-    }
-
-    // Attempt submission
-    $fetch("/api/submit", {
-      method: "post",
-      body: {
-        senderName: senderName.value.trim(),
-        senderEmail: senderEmail.value.trim(),
-        senderMessage: senderMessage.value.trim(),
-        turnstileToken: turnstileToken.value
-      }
-    })
-      .then((res) => {
-        afterFormSubmit("Successfully Sent", true);
-      })
-      .catch((err) => {
-        afterFormSubmit("Error Sending Message", false);
-      });
+  if (!senderName.value.trim() || !senderMessage.value.trim()) {
+    afterFormSubmit("A Required Field is Empty", false);
+    return;
   }
+
+  try {
+    const mail = useMail();
+    await mail.send({
+      from: 'no-reply@abdulbasetbappy.dev',
+      to: 'your-email@example.com',
+      subject: `New message from ${senderName.value}`,
+      text: `Name: ${senderName.value}\nEmail: ${senderEmail.value}\n\nMessage:\n${senderMessage.value}`,
+    });
+
+    afterFormSubmit("Successfully Sent", true);
+  } catch (error) {
+    afterFormSubmit("Error Sending Message", false);
+  } finally {
+    isSubmitting.value = false;
+  }
+}
+
 </script>
 
 <template>
@@ -120,15 +113,6 @@
         :is-success="isSuccessful"
         @close-feedback="() => (feedbackVisible = false)"
       ></app-feedback-card>
-
-      <div class="my-4">
-        <NuxtTurnstile
-          v-model="turnstileToken"
-          expired-callback="turnstile.reset()"
-          ref="turnstile"
-          class="rounded-lg"
-        />
-      </div>
 
       <button
         class="px-4 py-2 font-medium bg-green-500 rounded-lg w-36 text-zinc-800 focus-visible:global-focus focus-visible:ring-offset-zinc-50 dark:focus-visible:ring-offset-zinc-800 focus-visible:ring-offset-1 disabled:cursor-not-allowed disabled:bg-zinc-400"
