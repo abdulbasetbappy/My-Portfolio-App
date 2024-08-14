@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
   title: "Bappy · Frotnend Engineer",
-  description: "I craft delightful and accessible systems.",
+  description: "I craft efficient and user-friendly systems.",
 });
 
 useHead({
