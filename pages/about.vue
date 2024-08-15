@@ -1,4 +1,6 @@
 <script setup>
+import AppFooter from '../components/AppFooter.vue';
+
   definePageMeta({
     title: "About",
     description: "Things About Me."
@@ -64,6 +66,7 @@
       Working on these projects has deepened my understanding of creating <span class="highlight">scalable</span> and <span class="highlight">maintainable</span> applications, covering the entire development lifecycle from design to deployment. Additionally, I've gained valuable <span class="highlight">communication skills</span> and <span class="highlight">teamwork</span> experience, both in-person and remotely.
     </p>
     <app-divider class="md:my-6" />
+    <AppFooter />
   </article>
 </template>
 

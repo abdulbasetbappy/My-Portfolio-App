@@ -8,10 +8,10 @@
 
     <nuxt-link
       class="focus-visible:global-focus"
-      to="https://facebook.com/abdulbasetbappy.fb"
+      to="https://www.youtube.com/@FrontendTalks"
       target="_blank"
       external
-      >Twitter
+      >Youtube
     </nuxt-link>
 
     <span>&bull;</span>

@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <!-- Project Page Layout -->
 <template>
   <main id="main-content">
@@ -7,5 +10,8 @@
     >
       <slot />
     </article>
+    <!--Footer-->
+    <app-divider class="md:my-6" />
+    <AppPostFooter />
   </main>
 </template>

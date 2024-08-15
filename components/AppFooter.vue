@@ -1,6 +1,6 @@
 <!-- Footer: Tech Stack -->
 <template>
-  <footer class="flex items-center justify-start h-8">
+  <footer class="flex items-center justify-start h-2">
     <p
       class="flex items-center text-base font-medium text-zinc-400 dark:text-zinc-500"
     >
@@ -34,7 +34,7 @@
 
 <style scoped>
   footer {
-    @apply mt-10 mb-6 !important;
+    @apply mt-2 mb-0 !important;
   }
 
   a:last-of-type {
