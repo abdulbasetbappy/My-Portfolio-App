@@ -58,7 +58,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
         <!--Download Resume-->
         <a
           class="relative w-28 flex flex-col items-center justify-center sm:px-2 lg:px-3 sm:pt-2 lg:pt-2 pb-1 pt-1 sm:pb-2 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
-          href="/resume.pdf"
+          href="/Resume.pdf"
           download="Bappy's Resume"
         >
           <span class="mr-[1.25rem]">Resume</span>
