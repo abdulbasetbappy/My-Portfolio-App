@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 - SEO-friendly architecture.
 - Integrated LeetCode problem showcase.
 - Future updates will include a CodePen integration.
-- 
+  
 ## 🎯 Future Improvements
 - **CodePen Page**: A dedicated page for showcasing frontend experiments and snippets.
 - **Additional Projects**: Continuous updates with new projects and blogs.
