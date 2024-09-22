@@ -6,8 +6,8 @@
   const route = useRoute();
 
   const serverMeta = {
-    ogImage: "/og-image.png",
-    twitterImage: "/og-image.png",
+    ogImage: "~/public/og-image.png",
+    twitterImage: "~/public/og-image.png",
     ogType: "website",
     ogLocale: "en_US",
     twitterCard: "summary",
@@ -22,7 +22,7 @@
     twitterTitle: () => `Bappy · ${route.meta.title}`,
     ogDescription: () => route.meta.description,
     twitterDescription: () => route.meta.description,
-    ogUrl: () => `https://abdulbasetbappy.dev${route.path}`,
+    ogUrl: () => `https://abdulbasetbappy.vercel.app/${route.path}`,
     ...serverMeta
   });
 

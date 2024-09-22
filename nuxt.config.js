@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       script: [
         {
           type: "text/partytown",
-          src: "https://abdulbasetbappy.dev",
+          src: "https://abdulbasetbappy.vercel.app/",
           async: true,
         }
       ]

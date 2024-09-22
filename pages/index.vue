@@ -58,16 +58,14 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
         <action-button type="download" />
       </div>
 
-      <p class="mb-4 text-xl font-medium text-zinc-700 dark:text-zinc-300">
+      <p class="mb-3 text-zinc-700 dark:text-zinc-300">
         I'm a <span class="subtle-highlight">Front-End Developer</span> based in Bangladesh.
         I specialize in creating <span class="subtle-highlight">responsive, SEO-friendly web applications</span> using
-        <span class="subtle-highlight">Vue.js, React.js, Nuxt.js, and Next.js</span>.
-      </p>
-      <p class="my-2 text-zinc-700 dark:text-zinc-300">
-        I am
+        <span class="subtle-highlight">Vue.js, React.js, Nuxt.js, and Next.js</span>. I am
         <span class="subtle-highlight">currently seeking opportunities</span>
         to share my passion and expertise.
       </p>
+
     </section>
 
 
