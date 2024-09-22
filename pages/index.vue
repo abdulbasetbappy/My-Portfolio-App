@@ -59,10 +59,9 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
       </div>
 
       <p class="mb-4 text-xl font-medium text-zinc-700 dark:text-zinc-300">
-        I craft
-        <span class="highlight">Efficient</span>
-        and <span class="highlight">User-Friendly</span>
-        systems.
+        I'm a <span class="subtle-highlight">Front-End Developer</span> based in Bangladesh.
+        I specialize in creating <span class="subtle-highlight">responsive, SEO-friendly web applications</span> using
+        <span class="subtle-highlight">Vue.js, React.js, Nuxt.js, and Next.js</span>.
       </p>
       <p class="my-2 text-zinc-700 dark:text-zinc-300">
         I am

@@ -18,7 +18,7 @@
     title: () => route.meta.title,
     description: () => route.meta.description,
     ogTitle: () => `Bappy · ${route.meta.title}`,
-    ogImage: () => `https://abdulbasetbappy.dev${serverMeta.ogImage}`,
+    ogImage: () => serverMeta.ogImage,
     twitterTitle: () => `Bappy · ${route.meta.title}`,
     ogDescription: () => route.meta.description,
     twitterDescription: () => route.meta.description,
