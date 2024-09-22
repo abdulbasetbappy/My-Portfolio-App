@@ -1,6 +1,6 @@
 <template>
     <button v-show="showButton"
-        class="fixed bottom-6 right-8 p-0 bg-transparent w-10 h-10 transition-opacity duration-300 ease-in-out"
+        class="fixed hidden md:block bottom-6 right-8 p-0 bg-transparent w-10 h-10 transition-opacity duration-300 ease-in-out"
         @click="scrollToTop">
         <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -14,8 +14,6 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
-
 const showButton = ref(false)
 const amountScrolled = 200
 

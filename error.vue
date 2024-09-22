@@ -16,6 +16,7 @@
   useSeoMeta({
     title: () => pageMeta.title,
     description: () => pageMeta.description,
+    ogImage: () => serverMeta.ogImage,
     ogTitle: () => pageMeta.title,
     twitterTitle: () => pageMeta.title,
     ogDescription: () => pageMeta.description,

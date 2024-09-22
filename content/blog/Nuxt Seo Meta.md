@@ -6,8 +6,8 @@ tags:
   - NuxtJs
   - SEO
   - Meta
-image: "https://github.com/user-attachments/assets/d5087931-6fd5-4b0b-af2d-44c05e00777f"
-cover_image: "https://github.com/user-attachments/assets/d5087931-6fd5-4b0b-af2d-44c05e00777f"
+image: "/content/blogs/Seo-Meta.png"
+cover_image: "/content/blogs/Seo-Meta.png"
 canonical_url: https://abdulbasetbappy.dev/blog/Mastering-Nuxt-SEO-META-Boost-Your-Website-Visibility-with-Nuxt-App
 head:
   meta:

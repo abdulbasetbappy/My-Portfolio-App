@@ -8,8 +8,8 @@ tags:
   - SEO
   - Reactive
   - Meta Tags
-image: "https://github.com/user-attachments/assets/e0d2b497-3cfc-4982-a289-9f08685dde2b"
-cover_image: "https://github.com/user-attachments/assets/e0d2b497-3cfc-4982-a289-9f08685dde2b"
+image: "/content/blogs/Prerendering.png"
+cover_image: "/content/blogs/Prerendering.png"
 canonical_url: https://abdulbasetbappy.dev/blog/prerendering-with-nuxtjs
 head:
   meta:

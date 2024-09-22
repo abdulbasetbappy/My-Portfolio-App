@@ -7,8 +7,8 @@ tags:
   - Frontend
   - Vue.Js
   - Nitro
-image: "https://github.com/user-attachments/assets/5caed9e5-5f3e-476d-a50b-deb8b0012a83"
-cover_image: "https://github.com/user-attachments/assets/5caed9e5-5f3e-476d-a50b-deb8b0012a83"
+image: "/content/blogs/Data-Fetching.png"
+cover_image: "/content/blogs/Data-Fetching.png"
 canonical_url: https://abdulbasetbappy.dev/blog/Mastering-Data-Fetching-in-Nuxtjs-Best-Practices-and-Techniques
 head:
   meta:

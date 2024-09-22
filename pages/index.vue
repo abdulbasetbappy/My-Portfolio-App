@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
-  title: "Skilled Front-End Developer | Vue.js and React.js Expert",
-  description: "Looking for a Skilled Frontend Developer? I Specialize in Creating Responsive, SEO-Friendly web Applications using Vue.js, React.js, Nuxt.js, and Next.js.Let's Create Something Amazing Together.",
+  title: "Skilled Front-End Developer | Vue.js and React.js Expert In Bangladesh",
+  description: "Looking for a Skilled Frontend Developer in Bangladesh? I Specialize in Creating Responsive, SEO-Friendly web Applications using Vue.js, React.js, Nuxt.js, and Next.js.Let's Create Something Amazing Together.",
 });
 
 

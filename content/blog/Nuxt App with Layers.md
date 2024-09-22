@@ -6,8 +6,8 @@ tags:
   - NuxtJs
   - Layers
   - Reusing Code
-image: "https://github.com/user-attachments/assets/46bf1d25-2966-4f34-b77f-7f103dc96cba"
-cover_image: "https://github.com/user-attachments/assets/46bf1d25-2966-4f34-b77f-7f103dc96cba"
+image: "/content/blogs/Layers.png"
+cover_image: "/content/blogs/Layers.png"
 canonical_url: https://abdulbasetbappy.dev/blog/prerendering-with-nuxtjs
 head:
   meta:

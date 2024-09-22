@@ -25,8 +25,8 @@ definePageMeta({
       <div class="mr-10">
         <!--My Images-->
         <img class="rounded-lg mb-5 min-w-[100px] w-full h-auto md:w-auto md:h-auto shape-outside"
-          src="https://scontent.fdac24-3.fna.fbcdn.net/v/t39.30808-6/376877098_318458680713313_2303211340419808254_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFGbtyq-MmK9TIh3jqHqfYiGEIz4RlwWwkYQjPhGXBbCeta_XXyVs6FTsfdjcUSN0ent8TjIBiVMjnqcPRKTWXs&_nc_ohc=pbqyPlZNLxsQ7kNvgHaJJuO&_nc_ht=scontent.fdac24-3.fna&_nc_gid=AZuAPqXWFmGDyGWusDuBaQ0&oh=00_AYBnwZxp5fBU9K9-BBDKAHa3GFwkMv5X0KAYiPLZvG7JHg&oe=66EF1BB1"
-          alt="image of myself" />
+          src="/public/MyImage.jpg"
+          alt="Best Skilled Frontend Developer In Bangladesh with ReactJs & VueJs Expertise" />
         <!--Icons-->
         <div id="social" class="flex flex-wrap justify-center items-center gap-4">
           <!--GitHub-->

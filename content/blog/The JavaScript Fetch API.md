@@ -6,8 +6,8 @@ tags:
   - javascript
   - web-apis
   - fetch-api
-image: "https://github.com/user-attachments/assets/64e63ba7-2039-44e0-b8f4-f4e39aec7dc3"
-cover_image: "https://github.com/user-attachments/assets/64e63ba7-2039-44e0-b8f4-f4e39aec7dc3"
+image: "/content/blogs/The-JavaScript- Fetch-API.png"
+cover_image: "/content/blogs/The-JavaScript- Fetch-API.png"
 canonical_url: https://abdulbasetbappy.dev/blog/the-javascript-fetch-api
 head:
   meta:
