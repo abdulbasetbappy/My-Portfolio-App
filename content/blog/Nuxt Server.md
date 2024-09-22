@@ -6,8 +6,8 @@ tags:
   - NuxtJs
   - Full-Stack
   - Nitro
-image: "/content/cover/Nuxt-Server.png"
-cover_image: "/content/cover/Nuxt-Server.png"
+image: "https://github.com/user-attachments/assets/2a0c53eb-64b4-4a16-b23b-6439de3c08ad"
+cover_image: "https://github.com/user-attachments/assets/2a0c53eb-64b4-4a16-b23b-6439de3c08ad"
 canonical_url: https://abdulbasetbappy.dev/blog/Building-Full-Stack-Applications-with-Nuxt-Server
 head:
   meta:

@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    titleTemplate: "%s · Bappy"
+    titleTemplate: "Bappy · %s"
   });
 
   const route = useRoute();
@@ -17,8 +17,9 @@
   useSeoMeta({
     title: () => route.meta.title,
     description: () => route.meta.description,
-    ogTitle: () => `${route.meta.title} · Bappy`,
-    twitterTitle: () => `${route.meta.title} · Bappy`,
+    ogTitle: () => `Bappy · ${route.meta.title}`,
+    ogImage: () => `https://abdulbasetbappy.dev${serverMeta.ogImage}`,
+    twitterTitle: () => `Bappy · ${route.meta.title}`,
     ogDescription: () => route.meta.description,
     twitterDescription: () => route.meta.description,
     ogUrl: () => `https://abdulbasetbappy.dev${route.path}`,

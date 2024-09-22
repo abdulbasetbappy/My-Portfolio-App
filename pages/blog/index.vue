@@ -1,7 +1,7 @@
 <script setup>
   definePageMeta({
-    title: "Blog",
-    description: "My articles on various software development topics."
+    title: "Blog | Insights from an Expert Front-End Developer",
+    description: "Explore expert insights on front-end development with Vue.js, Nuxt.js, React.js, and Next.js. Learn efficient coding, industry trends, and techniques to elevate your skills."
   });
 
   // Fetch all blog posts

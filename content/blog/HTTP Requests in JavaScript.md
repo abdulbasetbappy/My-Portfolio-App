@@ -6,8 +6,8 @@ tags:
   - javascript
   - web-apis
   - http-requests
-image: '/content/cover/http-requests-in-javascript.png'
-cover_image: '/content/cover/http-requests-in-javascript.png'
+image: 'https://github.com/user-attachments/assets/755a7f30-6760-4f85-9d5f-3173a153321e'
+cover_image: 'https://github.com/user-attachments/assets/755a7f30-6760-4f85-9d5f-3173a153321e'
 canonical_url: https://abdulbasetbappy.dev/blog/http-requests-in-javascript
 head:
   meta:

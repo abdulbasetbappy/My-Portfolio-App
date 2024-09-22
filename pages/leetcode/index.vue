@@ -1,7 +1,7 @@
 <script setup>
   definePageMeta({
-    title: "LeetCode Solutions",
-    description: "My (imperfect) solutions to some LeetCode problems."
+    title: "LeetCode | JavaScript Coding Challenges and Solutions",
+    description: "My collection of (imperfect) solutions to various LeetCode problems. Explore my approach to coding challenges as I strive to improve my problem-solving skills."
   });
 
   // Fetch all LeetCode solutions
@@ -43,5 +43,11 @@
         />
       </template>
     </section>
+    <youtube-ads 
+    class="mt-8"
+    title="Welcome to Frontend Talks!"
+    description="Learn Frontend Development with Fun Projects and Insightful Tutorials!"
+    button="Subscribe Now"
+    />
   </article>
 </template>

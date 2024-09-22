@@ -72,7 +72,6 @@
       <ContentRenderer :value="doc" />
 
       <app-divider class="w-1/2 my-8 md:w-2/3" />
-
       <!-- Let's Connect -->
       <app-post-footer />
     </template>

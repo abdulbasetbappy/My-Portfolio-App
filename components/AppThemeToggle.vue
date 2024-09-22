@@ -17,7 +17,13 @@
       @click="toggle()"
     >
       <Icon
-        name="heroicons:moon-20-solid"
+      v-if="isDark"
+        name="line-md:moon-filled-alt-to-sunny-filled-loop-transition"
+        class="text-zinc-500 dark:text-zinc-100"
+      />
+      <Icon
+      v-else
+        name="line-md:sunny-filled-loop-to-moon-filled-loop-transition"
         class="text-zinc-500 dark:text-zinc-100"
       />
     </span>

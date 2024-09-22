@@ -2,7 +2,7 @@
 <template>
   <footer class="flex items-center justify-start h-2">
     <p
-      class="flex items-center text-base font-medium text-zinc-400 dark:text-zinc-500"
+      class="flex items-center text-xs md:text-base font-medium text-zinc-400 dark:text-zinc-500"
     >
       Built from scratch with:
       <nuxt-link

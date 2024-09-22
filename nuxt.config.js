@@ -56,7 +56,7 @@ export default defineNuxtConfig({
     ignores: ["drafts", "template.md", "/drafts/", "\\.yml$"],
     markdown: {
       toc: { depth: 1, searchDepth: 2 }
-    }
+    },
   },
   modules: [
     "@nuxt/content",

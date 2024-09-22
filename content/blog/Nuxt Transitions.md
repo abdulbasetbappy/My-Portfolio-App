@@ -6,8 +6,8 @@ tags:
   - NuxtJs
   - Animations
   - transitions
-image: "/content/cover/Transition.png"
-cover_image: "/content/cover/Transition.png"
+image: "https://github.com/user-attachments/assets/cfcc3feb-2ac0-4625-ac44-292444669691"
+cover_image: "https://github.com/user-attachments/assets/cfcc3feb-2ac0-4625-ac44-292444669691"
 canonical_url: https://abdulbasetbappy.dev/blog/Mastering-Nuxtjs-Transitions-Elevate-Your-Web-Animations
 head:
   meta:

@@ -86,4 +86,49 @@
     opacity: 0;
     transform: translateY(1%);
   }
+
+  /* ===== Scrollbar CSS ===== */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-green-600;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-green-400;
+}
+::-webkit-scrollbar-thumb:active {
+  @apply bg-green-500;
+}
+::-webkit-scrollbar-track {
+  @apply bg-zinc-950;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  @apply bg-zinc-950;
+}
+::-webkit-scrollbar-track:active {
+  @apply bg-zinc-950;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/*========= Selection ===========*/
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #14532d;
+}
+
+::selection {
+  color: #ffffff;
+  background: #14532d;
+}
 </style>

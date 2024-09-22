@@ -6,8 +6,8 @@ tags:
   - NuxtJs
   - Errors
   - Debug
-image: "/content/cover/Error-Handling.png"
-cover_image: "/content/cover/Error-Handling.png"
+image: "https://github.com/user-attachments/assets/50592a91-2fcb-416d-86d3-aac6c104b1f8"
+cover_image: "https://github.com/user-attachments/assets/50592a91-2fcb-416d-86d3-aac6c104b1f8"
 canonical_url: https://abdulbasetbappy.dev/blog/prerendering-with-nuxtjs
 head:
   meta:

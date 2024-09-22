@@ -6,8 +6,8 @@ tags:
   - javascript
   - web-apis
   - fetch-api
-image: "/content/cover/the-javascript-fetch-api.png"
-cover_image: "/content/cover/the-javascript-fetch-api.png"
+image: "https://github.com/user-attachments/assets/64e63ba7-2039-44e0-b8f4-f4e39aec7dc3"
+cover_image: "https://github.com/user-attachments/assets/64e63ba7-2039-44e0-b8f4-f4e39aec7dc3"
 canonical_url: https://abdulbasetbappy.dev/blog/the-javascript-fetch-api
 head:
   meta:
@@ -101,6 +101,7 @@ fetch("https://api.github.com/users")
     console.log(err); // Logs an error in case there is one
   });
 ```
+
 
 ### A few more examples
 

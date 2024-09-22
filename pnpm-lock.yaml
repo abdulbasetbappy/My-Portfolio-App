@@ -20,6 +20,9 @@ importers:
       nuxt-mail:
         specifier: ^5.0.1
         version: 5.0.1(rollup@4.14.1)
+      remark-shortcodes:
+        specifier: ^0.3.1
+        version: 0.3.1(remark-parse@11.0.0)
     devDependencies:
       '@nuxt/content':
         specifier: ^2.11.0
@@ -3803,6 +3806,11 @@ packages:
 
   remark-rehype@11.1.0:
     resolution: {integrity: sha512-z3tJrAs2kIs1AqIIy6pzHmAHlF1hWQ+OdY4/hv+Wxe35EhyLKcajL33iUEn3ScxtFox9nUvRufR/Zre8Q08H/g==}
+
+  remark-shortcodes@0.3.1:
+    resolution: {integrity: sha512-ornwmR9xHDtalUndKIFcAM14Z+OoKr8CRIdJpc1YFDxTHmVBBAu8ORmE9oP5fDuOWEu+r6YLyb5fCKScc4Gung==}
+    peerDependencies:
+      remark-parse: '>=3.0.0'
 
   remark-stringify@11.0.0:
     resolution: {integrity: sha512-1OSmLd3awB/t8qdoEOMazZkNsfVTeY4fTsgzcQFdXNq8ToTN4ZGwrMnlda4K6smTFKD+GRV6O48i6Z4iKgPPpw==}
@@ -9652,6 +9660,10 @@ snapshots:
       mdast-util-to-hast: 13.1.0
       unified: 11.0.4
       vfile: 6.0.1
+
+  remark-shortcodes@0.3.1(remark-parse@11.0.0):
+    dependencies:
+      remark-parse: 11.0.0
 
   remark-stringify@11.0.0:
     dependencies:

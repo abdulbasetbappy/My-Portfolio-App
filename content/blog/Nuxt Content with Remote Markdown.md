@@ -8,8 +8,8 @@ tags:
   - markdown
   - vue
   - github
-image: "/content/cover/nuxt-content-with-remote-markdown.png"
-cover_image: "/content/cover/nuxt-content-with-remote-markdown.png"
+image: "https://github.com/user-attachments/assets/42a7e123-f571-4c52-a2b4-1cdc09b1ae60"
+cover_image: "https://github.com/user-attachments/assets/42a7e123-f571-4c52-a2b4-1cdc09b1ae60"
 canonical_url: "https://abdulbasetbappy.dev/blog/nuxt-content-with-remote-markdown"
 head:
   meta:

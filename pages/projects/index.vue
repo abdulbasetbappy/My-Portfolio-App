@@ -1,7 +1,7 @@
 <script setup>
   definePageMeta({
-    title: "Projects",
-    description: "Projects that I am currently working on and have worked on."
+    title: "Projects | Front-End Developer Showcasing Vue.js, Nuxt.js, React.js, Next.js Work",
+    description: "Explore a collection of web applications built with Vue.js, Nuxt.js, React.js, and Next.js. Discover efficient, scalable solutions showcasing my front-end expertise."
   });
 
   // Fetch all featured projects
@@ -17,11 +17,12 @@
 <!-- Projects Page -->
 <template>
   <article>
+    <!------------------------------------ Header --------------------------------->
     <h1 class="mb-4 text-3xl font-bold text-left">Projects</h1>
     <p class="mb-6 text-zinc-700 dark:text-zinc-300">
       Each project is a story waiting to be told.
     </p>
-    <!-- Featured Projects -->
+    <!--------------------------------- Featured Projects --------------------------->
     <section
       class="grid grid-cols-1 grid-rows-2 gap-4 mb-10 lg:grid-cols-2 lg:grid-flow-row"
     >
@@ -42,7 +43,7 @@
         />
       </template>
     </section>
-    <!-- Link to More Projects -->
+    <!-------------------------------- Link to More Projects ------------------------>
     <nuxt-link
       to="/projects/more"
       class="flex items-center justify-center w-24 py-2 font-semibold no-underline duration-150 bg-green-500 rounded-md focus-visible:global-focus text-zinc-800 group/hover-effect"

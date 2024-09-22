@@ -2,7 +2,7 @@
   definePageMeta({
     title: "More Projects",
     description:
-      "More projects that I am currently working on and have worked on."
+      "More Small and Solo Projects that I am Currently Working on and have Worked on."
   });
 
   // Fetch all other projects
