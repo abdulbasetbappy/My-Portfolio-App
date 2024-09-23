@@ -108,15 +108,15 @@
   @apply bg-green-500;
 }
 ::-webkit-scrollbar-track {
-  @apply bg-zinc-950;
+  @apply bg-transparent;
   border: 0px none #ffffff;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-track:hover {
-  @apply bg-zinc-950;
+  @apply bg-transparent;
 }
 ::-webkit-scrollbar-track:active {
-  @apply bg-zinc-950;
+  @apply bg-transparent;
 }
 ::-webkit-scrollbar-corner {
   background: transparent;
