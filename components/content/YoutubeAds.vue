@@ -40,7 +40,7 @@ defineProps({
   },
   button: {
     type: String,
-    default: 'IconMarkdown'
+    default: 'See More'
   }
 })
 </script>

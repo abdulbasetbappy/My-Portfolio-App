@@ -57,14 +57,14 @@ definePageMeta({
           Hey it's me, Abdul Baset Bappy
         </h1>
         <p class="text-white w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] mb-10">
-          I'm Abdul Baset Bappy, and I love Front-End Web Development. My journey started with HTML, CSS, and
-          JavaScript, and I quickly became excited about building interactive, dynamic websites. As I grew my skills, I
-          began using Node.js and React.js to create bigger and better applications. I'm always learning and keeping up
+          I love Front-End Development. My journey started with HTML, CSS, and
+          <span class="highlight">JavaScript</span>, and I quickly became excited about building <span class="highlight">interactive</span>, dynamic websites. As I grew my skills, I
+          began using <span class="highlight"> Vue.js and React.js</span> to create bigger and better applications. I'm always learning and keeping up
           with the latest trends in web development.
         </p>
 
         <p class="my-2 text-zinc-700 dark:text-zinc-300">
-          Feel free to reach out if you have any questions, ideas for working together, or just want to talk about web
+          Feel free to reach out if you have any questions, ideas for <span class="highlight">working together</span>, or just want to talk about web
           development!
         </p>
       </div>
@@ -85,7 +85,7 @@ definePageMeta({
           <source media="(max-width: 1023px)" srcset="/certificate.png" />
           <source media="(min-width: 1024px)" srcset="/certificate.png" />
           <nuxt-img loading="lazy" preload placeholder format="png" height="100" src="/certificate.png"
-            alt="A Clear Picture of Vue.Js Developer Certificate from Ostad.com"
+            alt="A Clear Picture of Frontend Vue.Js & React.Js Developer Certificate from Ostad.com"
             class="object-cover w-full mb-1 text-center border rounded-lg border-zinc-200 dark:border-transparent" />
         </picture>
         <figcaption class="text-sm text-center text-zinc-500">
@@ -97,7 +97,7 @@ definePageMeta({
           <source media="(max-width: 1023px)" srcset="/Assesment.png" />
           <source media="(min-width: 1024px)" srcset="/Assesment.png" />
           <nuxt-img loading="lazy" preload placeholder format="png" height="100" src="/Assesment.png"
-            alt="A Clear Picture of Vue.Js Developer Certificate from Ostad.com"
+            alt="A Clear Picture of Skilled Frontend Vue.Js And React.Js Developer Assesment from Ostad.com"
             class="object-cover w-full mb-1 text-center border rounded-lg border-zinc-200 dark:border-transparent" />
         </picture>
         <figcaption class="text-sm text-center text-zinc-500">
@@ -106,11 +106,7 @@ definePageMeta({
       </figure>
     </div>
     <p>
-      This ultimately influenced my decision to pursue a Course in <span class="highlight">Ostad.com</span>.
-    </p>
-    <p>
-      While building a strong technical foundation in Course, I dedicated a lot
-      of my free time teaching myself web development and building things out.
+      This ultimately influenced my decision to take a Course at <span class="highlight">Ostad.com</span>. In addition to developing a good technical basis in Course, I spent a significant amount of my free time teaching myself web programming and developing projects.
     </p>
     <!----------------------------- Certifications End ------------------->
 

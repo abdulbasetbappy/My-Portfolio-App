@@ -109,7 +109,7 @@
           </nuxt-link>
         </div>
       </section>
-
+      <back-to-top/>
       <!-- Main Project content -->
       <ContentRenderer :value="doc" />
     </template>

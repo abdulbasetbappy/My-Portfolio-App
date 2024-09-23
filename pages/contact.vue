@@ -61,8 +61,7 @@ async function submit(e) {
         <action-button type="call" />
       </div>
       <p class="my-2 text-zinc-700 dark:text-zinc-300">
-        You can message me directly using this form.
-      </p>
+        You can contact me directly through this form or call me by clicking the button.      </p>
     </section>
     <!------------------------- Form Fo Contact ---------------------------->
     <form @submit.prevent="submit" class="w-full md:max-w-md md:w-11/12 lg:w-2/3">

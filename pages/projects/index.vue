@@ -53,5 +53,12 @@
         class="ml-1 group-hover/hover-effect:translate-x-1"
       />
     </nuxt-link>
+     <!-------------------------------- Ads ------------------------>
+     <youtube-ads
+     title="Welcome to FrontendTalks!"
+     description="In this Chennel I Shared My Experience and Tutorials to Help Learners."
+     button="Explore Videos"
+      class="mt-12"
+     />
   </article>
 </template>

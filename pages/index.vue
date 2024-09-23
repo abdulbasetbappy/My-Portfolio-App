@@ -51,7 +51,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
     <section>
       <div class="flex items-start justify-between">
         <h1 class="mb-4 text-2xl font-semibold">
-          Hi, I'm Bappy
+          Hi, It's Bappy
           <span id="wave">👋</span>
         </h1>
         <!--Download Resume-->
