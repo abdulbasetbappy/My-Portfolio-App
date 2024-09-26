@@ -1,8 +1,8 @@
 <script setup>
   definePageMeta({
-    title: "More Projects",
+    title: "More Projects using Vuejs, Reactjs, Nextjs, Nuxtjs and Vanilla JavaScript",
     description:
-      "More Small and Solo Projects that I am Currently Working on and have Worked on."
+      "More Small and Solo Projects using Vuejs, Reactjs, Nextjs, Nuxtjs, Vanilla JavaScript that I am Currently Working on and have Worked on."
   });
 
   // Fetch all other projects
@@ -52,6 +52,7 @@
           :project-description="project.description"
           :project-url="project.liveUrl"
           :icon="project.icon"
+          :isExternal='true'
         />
       </template>
     </section>

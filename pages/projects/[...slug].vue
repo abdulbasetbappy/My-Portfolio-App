@@ -4,7 +4,7 @@
   });
 
   useHead({
-    titleTemplate: "%s (Project) · Bappy"
+    titleTemplate: "Bappy · %s (Project)"
   });
 
   const route = useRoute();
@@ -29,8 +29,8 @@
   useSeoMeta({
     title: () => projectTitle,
     description: () => projectDescription,
-    ogTitle: () => `${projectTitle} (Project) · Bappy`,
-    twitterTitle: () => `${projectTitle} (Project) · Bappy`,
+    ogTitle: () => `${projectTitle} (Project) By Experienced Frontend Expert Abdul Baset Bappy`,
+    twitterTitle: () => `${projectTitle} (Project) By Experienced Frontend Expert Abdul Baset Bappy`,
     ogDescription: () => projectDescription,
     twitterDescription: () => projectDescription,
     ogImage: () => projectImage,

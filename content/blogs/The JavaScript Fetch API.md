@@ -1,7 +1,7 @@
 ---
 id: the-javascript-fetch-api
 title: The JavaScript Fetch API
-description: A Simple Introduction to the JavaScript Fetch API
+description: A Simple Introduction to the JavaScript Fetch API & How to Work with it.
 tags:
   - javascript
   - web-apis
@@ -101,6 +101,14 @@ fetch("https://api.github.com/users")
     console.log(err); // Logs an error in case there is one
   });
 ```
+
+::youtube-ads
+---
+button: See on Youtube
+description: Mastering frontend development with fun and insightful tutorials!
+title: Welcome to Frontend Talks!.
+---
+::
 
 
 ### A few more examples

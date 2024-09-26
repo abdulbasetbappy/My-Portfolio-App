@@ -27,6 +27,8 @@
 <template>
   <nuxt-link
     :to="projectUrl"
+    :target="isExternalUrl ? '_blank' : '_self'"
+    :rel="isExternalUrl ? 'noopener noreferrer' : ''"
     class="relative flex items-center w-full h-24 px-4 py-2 overflow-hidden duration-200 bg-white border focus-visible:global-focus rounded-xl transition- border-zinc-200 dark:border-zinc-700 dark:bg-zinc-800/50 hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
   >
     <div

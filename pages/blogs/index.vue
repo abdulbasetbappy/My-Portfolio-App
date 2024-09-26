@@ -6,7 +6,7 @@
 
   // Fetch all blog posts
   const { pending, data: posts } = await useLazyAsyncData("all-posts", () =>
-    queryContent("/blog").sort({ published_on: -1 }).find()
+    queryContent("/blogs").sort({ published_on: -1 }).find()
   );
 </script>
 

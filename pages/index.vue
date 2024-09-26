@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
   title: "Skilled Front-End Developer | Vue.js and React.js Expert In Bangladesh",
-  description: "Looking for a Skilled Frontend Developer in Bangladesh? I Specialize in Creating Responsive, SEO-Friendly web Applications using Vue.js, React.js, Nuxt.js, and Next.js.Let's Create Something Amazing Together.",
+  description: "Looking for a Skilled Frontend Developer? I Specialize in Creating Responsive, SEO-Friendly web Applications using Vue.js, React.js, Nuxt.js, and Next.js.Let's Create Something Amazing Together.",
 });
 
 
@@ -34,7 +34,7 @@ const skillset = ref({
 // Fetch latest 2 blog posts
 const { pending: blogsPending, data: blogPosts } = await useLazyAsyncData(
   "featured-posts",
-  () => queryContent("/blog").sort({ published_on: -1 }).limit(2).find()
+  () => queryContent("/blogs").sort({ published_on: -1 }).limit(2).find()
 );
 
 // Fetch 2 featured projects
@@ -125,7 +125,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
     <!---------------------------- Latest Blog Posts -------------------->
     <section>
       <h2 class="w-auto mb-2 text-xl font-semibold group">
-        <nuxt-link to="/blog" class="flex items-center w-full py-2 rounded-lg focus-visible:global-focus">
+        <nuxt-link to="/blogs" class="flex items-center w-full py-2 rounded-lg focus-visible:global-focus">
           My Articles
           <Icon name="heroicons:chevron-right-solid" class="ml-2 text-green-500 group-hover:translate-x-1" />
         </nuxt-link>
@@ -164,9 +164,9 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
         <!--LeetCode-->
         <Nuxt-Link
           class="relative flex flex-col items-center justify-center px-2 pt-2 pb-3 overflow-hidden font-medium rounded-md focus-visible:global-focus card-style hover:ring-2 hover:ring-offset-0 hover:ring-green-400 hover:ring-opacity-75"
-          to="/leetcode">
+          to="/Problems-Solution">
           <Icon name="fluent-emoji:teacup-without-handle" size="2.5rem" class="p-1 mb-2" />
-          <span>LeetCode</span>
+          <span>Problem Solve</span>
         </Nuxt-Link>
         <!--Resume-->
         <app-link-card

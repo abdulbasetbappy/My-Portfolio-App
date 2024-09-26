@@ -8,7 +8,7 @@
     Home: "",
     About: "about",
     Projects: "projects",
-    Blog: "blog",
+    Blog: "blogs",
     Contact: "Contact"
   };
 </script>

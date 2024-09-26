@@ -145,7 +145,7 @@ export default defineNuxtConfig({
     sources: {
       blog: {
         driver: "fs",
-        prefix: "/blog",
+        prefix: "/blogs",
         base: resolve(__dirname, "articles")
       },
       github: {

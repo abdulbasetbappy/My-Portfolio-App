@@ -4,12 +4,12 @@
   });
 
   useHead({
-    titleTemplate: "%s (LeetCode Solution) · Bappy"
+    titleTemplate: "Bappy · JavaScript | %s (JavaScript Problems Solution)"
   });
 
   const route = useRoute();
 
-  const { data } = await useAsyncData("get-leetcode-post", () =>
+  const { data } = await useAsyncData("get-problems-post", () =>
     queryContent(route.path).only(["title", "description"]).findOne()
   );
 
@@ -27,8 +27,8 @@
   useSeoMeta({
     title: () => postTitle,
     description: () => postDescription,
-    ogTitle: () => `${postTitle} (LeetCode Solution) · Bappy`,
-    twitterTitle: () => `${postTitle} (LeetCode Solution) · Bappy`,
+    ogTitle: () => `${postTitle} By Skilled Frontend Expert Abdul Baset Bappy`,
+    twitterTitle: () => `${postTitle} By Skilled Frontend Expert Abdul Baset Bappy`,
     ogDescription: () => postDescription,
     twitterDescription: () => postDescription,
     ogUrl: () => `https://abdulbasetbappy.dev${route.path}`,

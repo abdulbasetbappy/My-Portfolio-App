@@ -4,7 +4,7 @@
   });
 
   useHead({
-    titleTemplate: "%s | Blog · Bappy"
+    titleTemplate: "Bappy · Blog | %s",
   });
 
   const route = useRoute();

@@ -1,6 +1,6 @@
 <script setup>
   definePageMeta({
-    title: "Projects | Front-End Developer Showcasing Vue.js, Nuxt.js, React.js, Next.js Work",
+    title: "Projects | Experinced Front-End Developer Showcasing Vue.js & React.js Work",
     description: "Explore a collection of web applications built with Vue.js, Nuxt.js, React.js, and Next.js. Discover efficient, scalable solutions showcasing my front-end expertise."
   });
 
