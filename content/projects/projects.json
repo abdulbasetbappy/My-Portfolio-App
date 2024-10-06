@@ -1,0 +1,54 @@
+{
+    "body": [
+      {
+        "name": "Deashboard",
+        "description": "QR code generator: Vue + TailwindCSS",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/socialcard.png",
+        "visual": true
+      },
+      {
+        "name": "Weather App",
+        "description": "Weather app: Vue + TailwindCSS + OpenWeatherMap API + Pinia",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/socialcard.png",
+        "visual": true
+      },
+      {
+        "name": "To Do List",
+        "description": "To do list: Nuxt.js + TailwindCSS + Pinia",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/socialcard.png",
+        "visual": true
+      },
+      {
+        "name": "Resturant UI",
+        "description": "Resturant UI: Nuxt.js + TailwindCSS",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/socialcard.png",
+        "visual": true
+      },
+      {
+        "name": "Coupon Generator",
+        "description": "Coupon Code Genarator: Vue + TailwindCSS",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/socialcard.png",
+        "visual": true
+      },
+      {
+        "name": "Tic Tac Toe",
+        "description": "Tic Tac Toe: Javascript + TailwindCSS",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/Responsive-Portfolio.png",
+        "visual": false
+      },
+      {
+        "name": "Calculator",
+        "description": "Calculator: Javascript + TailwindCSS",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/Responsive-Portfolio.png",
+        "visual": false
+      }
+    ]
+  }
+  
