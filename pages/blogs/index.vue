@@ -1,7 +1,7 @@
 <script setup>
   definePageMeta({
     title: "Blog | Insights from an Expert Front-End Developer",
-    description: "Explore expert insights on front-end development with Vue.js, Nuxt.js, React.js, and Next.js. Learn efficient coding, industry trends, and techniques to elevate your skills."
+    description: "Read the Latest Blog Posts from Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js."
   });
 
   // Fetch all blog posts

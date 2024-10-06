@@ -1,6 +1,6 @@
 <!-- Footer: Tech Stack -->
 <template>
-  <footer class="flex items-center justify-start h-2">
+  <footer class="flex items-center justify-start">
     <p
       class="flex items-center text-xs md:text-base font-medium text-zinc-400 dark:text-zinc-500"
     >

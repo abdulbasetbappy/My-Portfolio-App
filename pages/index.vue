@@ -1,11 +1,9 @@
 <script setup>
-
-import AppProjectSkeleton from '../components/skeletons/AppProjectSkeleton.vue';
 definePageMeta({
   title:
-    "Skilled Front-End Developer | Vue.js and React.js Expert In Bangladesh",
+    "Skilled Front-End Developer | Vue.js & React.js Specialist",
   description:
-    "Looking for a Skilled Frontend Developer? I Specialize in Creating Responsive, SEO-Friendly web Applications using Vue.js, React.js, Nuxt.js, and Next.js.Let's Create Something Amazing Together.",
+    "Abdul Baset Bappy is a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js. He Specializes in Building Responsive, SEO-friendly Web Applications.",
 });
 
 const route = useRoute();
@@ -26,7 +24,7 @@ const skillset = ref({
     "Sass",
     "Node.Js",
   ],
-  tinker: ["GraphQL", "Rendering", "Reuseability", "SEO & Meta"],
+  tinker: ["Optimiztion", "Rendering", "Reuseability", "SEO & Meta"],
 });
 
 // Fetch latest 2 blog posts
@@ -67,17 +65,17 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
       </div>
 
       <p class="mb-3 text-zinc-700 dark:text-zinc-300">
-        I'm a <span class="subtle-highlight">Front-End Developer</span> based in
-        Bangladesh. I specialize in creating
+        I'm a <span class="subtle-highlight">Front-End Developer</span> From
+        Bangladesh. I Specialize in Building
         <span class="subtle-highlight"
-          >responsive, SEO-friendly web applications</span
+          >responsive, SEO-friendly Web Applications</span
         >
         using
         <span class="subtle-highlight"
-          >Vue.js, React.js, Nuxt.js, and Next.js</span
+          >Vue.js & React.js</span
         >. I am
-        <span class="subtle-highlight">currently seeking opportunities</span>
-        to share my passion and expertise.
+        <span class="subtle-highlight">Currently Seeking Opportunities</span>
+        to share my Passion and Expertise.
       </p>
     </section>
 
@@ -86,7 +84,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
       <h2 class="py-2 mb-1 text-xl font-semibold">My Skills</h2>
       <!-- Primary Tools -->
       <p class="mb-3 text-zinc-700 dark:text-zinc-300">
-        My specialty is <span class="subtle-highlight">solving problems</span>,
+        My Specialty is <span class="subtle-highlight">Solving Problems</span>,
         and my toolbox includes:
       </p>
       <ul

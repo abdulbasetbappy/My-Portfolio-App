@@ -14,7 +14,7 @@ const props = defineProps({
   title: {
     type: String,
     default: "Title",
-  }
+  },
 });
 
 // Check if the URL is an external link
@@ -59,15 +59,15 @@ const isExternalUrl = computed(() => {
       />
       <!-- Glass effect div with title and icon, reduced width, reacts to hover on the card -->
       <div
-        class="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-1 bg-gray-500 bg-opacity-10 backdrop-blur-lg border border-gray-700 rounded-lg rounded-b-none w-3/4 flex items-center justify-between transition-all duration-300 ease-in-out group-hover:bg-opacity-15 border-b-0 group-hover:border-gray-700"
+        class="absolute bottom-0 left-1/2 transform -translate-x-1/2 p-1 bg-gray-500 bg-opacity-40 backdrop-blur-lg border border-gray-500 rounded-lg rounded-b-none w-3/4 flex items-center justify-between transition-all duration-300 ease-in-out group-hover:bg-opacity-30 border-b-0 group-hover:border-gray-500"
       >
-        <h3 class="text-gray-100 text-sm text-center flex-1">
+        <h3 class="text-gray-100 text-sm group-hover:text-base text-center flex-1">
           {{ title }}
         </h3>
         <Icon
           v-show="isExternalUrl"
           name="material-symbols:arrow-outward-rounded"
-          class="w-5 h-5 mr-2 text-green-600"
+          class="w-5 h-5 group-hover:w-6 group-hover:h-6 mr-2 text-green-600"
         />
       </div>
     </div>

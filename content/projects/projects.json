@@ -1,53 +1,52 @@
 {
     "body": [
       {
-        "name": "Deashboard",
-        "description": "QR code generator: Vue + TailwindCSS",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/socialcard.png",
+        "name": "Skyline App",
+        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "image": "/content/projects/SkylineApp.png",
         "visual": true
       },
       {
-        "name": "Weather App",
-        "description": "Weather app: Vue + TailwindCSS + OpenWeatherMap API + Pinia",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/socialcard.png",
+        "name": "Anon Shop App",
+        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "image": "/content/projects/Anon.png",
         "visual": true
       },
       {
-        "name": "To Do List",
-        "description": "To do list: Nuxt.js + TailwindCSS + Pinia",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/socialcard.png",
+        "name": "My Portfolio",
+        "liveUrl": "https://github.com/AbdulBasetBappy",
+        "image": "/content/projects/myportfolio.png",
         "visual": true
       },
       {
-        "name": "Resturant UI",
-        "description": "Resturant UI: Nuxt.js + TailwindCSS",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/socialcard.png",
+        "name": "Plante App",
+        "liveUrl": "https://github.com/AbdulBasetBappy",
+        "image": "/content/projects/plante.png",
         "visual": true
       },
       {
-        "name": "Coupon Generator",
-        "description": "Coupon Code Genarator: Vue + TailwindCSS",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/socialcard.png",
+        "name": "Fodio App",
+        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "image": "/content/projects/fodio.png",
         "visual": true
       },
       {
-        "name": "Tic Tac Toe",
-        "description": "Tic Tac Toe: Javascript + TailwindCSS",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/Responsive-Portfolio.png",
-        "visual": false
+        "name": "Jack Portfolio",
+        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "image": "/content/projects/portfolio.png",
+        "visual": true
       },
       {
-        "name": "Calculator",
-        "description": "Calculator: Javascript + TailwindCSS",
+        "name": "Gaming App Design",
         "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-        "image": "/content/projects/Responsive-Portfolio.png",
-        "visual": false
+        "image": "/content/projects/game.png",
+        "visual": true
+      },
+      {
+        "name": "Resturant App",
+        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "image": "/content/projects/Resturant.png",
+        "visual": true
       }
     ]
   }

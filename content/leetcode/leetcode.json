@@ -1,0 +1,24 @@
+{
+    "body": [
+        {
+            "title": "Transform Over Each Element in Array",
+            "solutionUrl": "https://leetcode.com/problems/apply-transform-over-each-element-in-array/submissions/1302253845?source=submission-ac",
+            "tags": [
+                "Array",
+                "String",
+                "Two Pointers"
+            ],
+            "visual": true
+        },
+        {
+            "title": "Filter Elements from Array",
+            "solutionUrl": "https://leetcode.com/problems/filter-elements-from-array/submissions/1302255177?source=submission-ac",
+            "tags": [
+                "Array",
+                "String",
+                "Two Pointers"
+            ],
+            "visual": true
+        }
+    ]
+}

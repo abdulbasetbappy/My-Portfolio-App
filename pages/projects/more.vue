@@ -1,9 +1,9 @@
 <script setup>
 definePageMeta({
   title:
-    "More Projects using Vuejs, Reactjs, Nextjs, Nuxtjs and Vanilla JavaScript",
+    "More Projects | Small and Solo Projects using Vue.js, React.js",
   description:
-    "More Small and Solo Projects using Vuejs, Reactjs, Nextjs, Nuxtjs, Vanilla JavaScript that I am Currently Working on and have Worked on.",
+    "Explore the Small and Solo Projects Built by Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js.",
 });
 
 // Fetch all other projects

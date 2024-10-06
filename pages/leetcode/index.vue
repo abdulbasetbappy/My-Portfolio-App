@@ -1,12 +1,21 @@
 <script setup>
 definePageMeta({
   title: "Problems Solution | My JavaScript Coding Challenges and Solutions",
-  description: "My collection of (imperfect) solutions to various LeetCode problems. Explore my approach to coding challenges as I strive to improve my problem-solving skills."
+  description: "Explore the JavaScript Coding Problems and Solutions by Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js.",
 });
 
-// Fetch all LeetCode solutions
-const { pending, data: codeSolutions } = await useAsyncData("leetcode", () =>
-  queryContent("/leetcode").find()
+// Fetch all other projects
+const { pending, data: codeSolutions } = await useLazyAsyncData(
+  "leetcode",
+  () => queryContent("/leetcode/leetcode").findOne(),
+  {
+    transform: (projects) => {
+      return {
+        visual: projects.body.filter((project) => project.visual),
+        nonVisual: projects.body.filter((project) => !project.visual),
+      };
+    },
+  }
 );
 </script>
 
@@ -19,7 +28,7 @@ const { pending, data: codeSolutions } = await useAsyncData("leetcode", () =>
         LeetCode Solutions
         <span
           class="inline-flex items-center justify-center w-8 h-8 text-base font-medium rounded-full dark:bg-zinc-800 dark:text-zinc-300 bg-zinc-200 text-zinc-600"
-          aria-label="Total Number of Solutions" title="Total Number of Solutions">{{ codeSolutions.length }}</span>
+          aria-label="Total Number of Solutions" title="Total Number of Solutions">{{ codeSolutions.visual.length }}</span>
       </h1>
       <p class="mb-6 text-zinc-700 dark:text-zinc-300">
         My solutions to some LeetCode-style coding problems.
@@ -29,9 +38,9 @@ const { pending, data: codeSolutions } = await useAsyncData("leetcode", () =>
           <app-code-solution-skeleton v-for="skeleton in generateKeys(5)" :key="skeleton" />
         </template>
         <template v-else>
-          <app-code-solution-card v-for="solution in codeSolutions" :key="solution._path"
-            :problem-title="solution.title" :url="solution._path" :tags="solution.tags"
-            :problem-url="solution.problemUrl" />
+          <app-code-solution-card v-for="solution in codeSolutions.visual" :key="solution.title"
+            :problem-title="solution.title" :url="solution.solutionUrl" :tags="solution.tags"
+           />
         </template>
       </section>
     </div>

@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
-  title: "Projects | Experienced Front-End Developer Showcasing Vue.js & React.js Work",
-  description: "Explore a collection of web applications built with Vue.js, Nuxt.js, React.js, and Next.js. Discover efficient, scalable solutions showcasing my front-end expertise.",
+  title: "Projects | Web Applications Built with Vue.js, React.js",
+  description: "Explore the Projects Built by Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js.",
 });
 
 // Fetch all other projects
