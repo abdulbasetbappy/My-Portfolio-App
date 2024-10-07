@@ -1,5 +1,5 @@
 ---
-id: Optimizing-SEO-in-Your-Nuxt-App-with-Prerendering
+id: Optimizing-Your-App-with-Prerendering
 title: Optimizing SEO in Your Nuxt App with Prerendering
 description: Optimizing SEO in Your Nuxt App with Prerendering, Meta Tags, and Reactive Head Management
 tags:
