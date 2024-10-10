@@ -2,37 +2,19 @@
   "body": [
     {
       "name": "Product Page",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "liveUrl": "https://product-details-page-mu.vercel.app/",
       "image": "/content/projects/ProductPage.png",
       "visual": true
     },
     {
-      "name": "Calculator",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-      "image": "/content/projects/Calculator.png",
-      "visual": true
-    },
-    {
       "name": "Weather App",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy/pen/BaXzOeb",
       "image": "/content/projects/Weather.png",
       "visual": true
     },
     {
-      "name": "To Do App",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-      "image": "/content/projects/todo.png",
-      "visual": true
-    },
-    {
-      "name": "Tic Tac Toe",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
-      "image": "/content/projects/Tictac.png",
-      "visual": false
-    },
-    {
       "name": "Social Media card",
-      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+      "liveUrl": "https://codepen.io/Abdul-Baset-Bappy/details/PoVrGXW",
       "image": "/content/projects/Socialcard.png",
       "visual": false
     }

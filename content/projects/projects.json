@@ -2,49 +2,49 @@
     "body": [
       {
         "name": "Skyline App",
-        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "liveUrl": "https://e-commerce-frontend-84i7qarfi-abdulbasetbappys-projects.vercel.app/",
         "image": "/content/projects/SkylineApp.png",
         "visual": true
       },
       {
         "name": "Anon Shop App",
-        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "liveUrl": "https://anon-ecommerce-abdulbasetbappy.vercel.app/",
         "image": "/content/projects/Anon.png",
         "visual": true
       },
       {
         "name": "My Portfolio",
-        "liveUrl": "https://github.com/AbdulBasetBappy",
+        "liveUrl": "https://abdulbasetbappy.vercel.app/",
         "image": "/content/projects/myportfolio.png",
         "visual": true
       },
       {
         "name": "Plante App",
-        "liveUrl": "https://github.com/AbdulBasetBappy",
+        "liveUrl": "https://responsive-plants-website-pi.vercel.app/",
         "image": "/content/projects/Plante.png",
         "visual": true
       },
       {
         "name": "Fodio App",
-        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "liveUrl": "https://responsive-tasty-food-template.vercel.app/",
         "image": "/content/projects/fodio.png",
         "visual": true
       },
       {
         "name": "Jack Portfolio",
-        "liveUrl": "https://www.github.com/AbdulBasetBappy",
+        "liveUrl": "https://jack-portfolio-abdulbasetbappy.vercel.app/",
         "image": "/content/projects/portfolio.png",
         "visual": true
       },
       {
         "name": "Gaming App Design",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "liveUrl": "https://gamming-app-design-abdulbasetbappy.vercel.app/",
         "image": "/content/projects/Game.png",
         "visual": true
       },
       {
         "name": "Resturant App",
-        "liveUrl": "https://codepen.io/Abdul-Baset-Bappy",
+        "liveUrl": "https://grilli-resturant-abdul-baset-bappy.vercel.app/",
         "image": "/content/projects/Resturant.png",
         "visual": true
       }
