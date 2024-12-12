@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
-  title: "Contact | Skilled Front-End Developer in Vue.js, React.js",
-  description: "Connect with a Skilled Front-End Developer. Contact me For Project Inquiries, Collaborations, or to Create Fast, Scalable Web Apps."
+  title: "Contact with Experienced Full-Stack Developer",
+  description: "Connect with a Experienced Full-Stack Developer For Project Inquiries, Collaborations, or to Create Fast, SEO Friendly Web Apps."
 });
 
 // Feedback card props

@@ -1,7 +1,7 @@
 ---
 id: "Nuxt-SEO-META-Boost-Your-Website-Visibility-with-Nuxt-App"
-title: "Nuxt SEO & META Boost Your Website's Visibility with Nuxt.js"
-description: "Nuxt SEO & META: Boost Your Website's Visibility with Nuxt.js"
+title: "How to Do OnPageSEO on Nuxt APP"
+description: "How Boost Website's Visibility with Nuxt.js By Doing this Simple Step"
 tags:
   - NuxtJs
   - SEO

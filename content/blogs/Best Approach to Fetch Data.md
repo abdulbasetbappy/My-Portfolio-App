@@ -1,13 +1,13 @@
 ---
-id: "Best-Approach-to-fetch-data-in-both-Nuxtjs-and-NextJs"
-title: "Best Approach to Fetch Data in both Nuxtjs and NextJs"
-description: "Learn the best practices for fetching data in Nuxt.js and Next.js, from server-side to client-side methods, optimizing performance and user experience."
+id: "Best-Approach-to-fetch-data-in-Nuxtjs"
+title: "Best Approach to Fetch Data in Nuxtjs"
+description: "Learn the best practices for fetching data in Nuxt.js from server-side to client-side methods, optimizing performance and user experience."
 tags:
   - Nuxt.Js
   - Frontend
   - Vue.Js
-  - React.js
-  - Next.Js
+  - SSR
+  - CSR
 image: "/content/blogs/Data-Fetching.png"
 cover_image: "/content/blogs/Data-Fetching.png"
 canonical_url: "https://abdulbasetbappy.vercel.app/blogs/Best-Approach-to-fetch-data-in-both-Nuxtjs-and-NextJs"

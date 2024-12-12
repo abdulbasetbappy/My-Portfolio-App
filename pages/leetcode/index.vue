@@ -1,7 +1,7 @@
 <script setup>
 definePageMeta({
-  title: "Problems Solution | My JavaScript Coding Challenges and Solutions",
-  description: "Explore the JavaScript Coding Problems and Solutions by Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js.",
+  title: "Problems Solved By Abdul Baset Bappy",
+  description: "JavaScript Coding Problems solved by Abdul Baset Bappy, a Skilled Full-Stack Developer with 1+ years of Experience.",
 });
 
 // Fetch all other projects

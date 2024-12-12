@@ -1,7 +1,7 @@
 <script setup>
   definePageMeta({
-    title: "Blog | Insights from an Expert Front-End Developer",
-    description: "Read the Latest Blog Posts from Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js."
+    title: "Insights from Abdul Baset Bappy",
+    description: "Explore the latest blog posts by Abdul Baset Bappy, where I share valuable insights, tips, and tricks for full-stack development, including Vue.js, Nuxt.js, and more."
   });
 
   // Fetch all blog posts

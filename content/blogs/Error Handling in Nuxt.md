@@ -1,7 +1,7 @@
 ---
-id: "Mastering-Error-Handling-in-Nuxt"
-title: "Mastering Error Handling in Nuxt: A Comprehensive Guide"
-description: "Mastering Error Handling in Nuxt: A Comprehensive Guide"
+id: "How-to-Handle-Error-in-Nuxt"
+title: "How to Handle Error in Nuxt.Js"
+description: "Learn All About Error Handling In Nuxt Js From an Expert Frontned Developer"
 tags:
   - NuxtJs
   - Errors

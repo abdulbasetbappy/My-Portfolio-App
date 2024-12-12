@@ -31,6 +31,7 @@ const ExData = [
   <div>
     <h2 :class="titleSmall ? 'text-xl mt-8' : 'text-2xl'" class="mb-4 font-bold">
       {{ title }}
+      <span id="wave">💼</span>
     </h2>
     <ul role="list" class="m-8 mt-6 max-w-screen-md">
       <li v-for="data in ExData" :key="data.name" class="group relative flex flex-col pb-8 pl-7 last:pb-0">
@@ -55,9 +56,11 @@ const ExData = [
       </li>
     </ul>
     <p class="text-zinc-700 dark:text-zinc-300 my-4 text-base leading-relaxed">
-      With 1+ years of <span class="subtle-highlight">Remote Front-end Experience</span>, I’ve Refined my Skills under Senior mentorship, creating Clean, Efficient, and Performance-Optimized Code. I’m Passionate about building Scalable, Maintainable solutions that align with Industry Best Practices and Deliver Exceptional User Experiences.
+      With 1+ years of <span class="subtle-highlight">Development Experience</span>, I’ve Refined my Skills under Senior mentorship, creating Clean, Efficient, and Performance-Optimized Code. I’m Passionate about building Scalable, Maintainable solutions that align with Industry Best Practices and Deliver Exceptional User Experiences.
     </p>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

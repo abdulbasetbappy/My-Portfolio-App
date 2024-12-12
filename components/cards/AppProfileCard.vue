@@ -6,7 +6,7 @@
   };
   const Details = {
     name:"Abdul Baset Bappy",
-    title:"Frontend - Engineer"
+    title:"Full-Stack Engineer"
   }
 </script>
 
@@ -23,7 +23,7 @@
       width="112"
       height="112"
       src="/profile.jpg"
-      alt="Best Skilled Frontend Developer In Bangladesh with ReactJs & VueJs Expertise"
+      alt="Abdul Baset Bappy's Profile Picture"
       class="text-center border rounded-full w-28 border-zinc-200 dark:border-zinc-800"
     />
     <h2 class="text-xl font-bold md:text-2xl text-zinc-900 dark:text-zinc-100">

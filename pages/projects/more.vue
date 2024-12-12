@@ -1,9 +1,9 @@
 <script setup>
 definePageMeta({
   title:
-    "More Projects | Small and Solo Projects using Vue.js, React.js",
+    "Small and Solo Projects by Abdul Baset Bappy",
   description:
-    "Explore the Small and Solo Projects Built by Abdul Baset Bappy, a Skilled Front-End Developer with 1+ years of Experience in Vue.js, React.js.",
+    "Small and Solo Projects by Abdul Baset Bappy, a Skilled Full-Stack Developer with 1+ years of Experience in Nuxt.js, Express.js.",
 });
 
 // Fetch all other projects
