@@ -78,7 +78,9 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
 
     <!-------------------------------- Skills --------------------------->
     <section>
-      <h2 class="py-2 mb-1 text-xl font-semibold">My Skills</h2>
+      <h2 class="py-2 mb-1 text-xl font-semibold">My Toolkits 
+        <span id="wave">🛠️</span>
+      </h2>
       <!-- Primary Tools -->
       <p class="mb-3 text-zinc-700 dark:text-zinc-300">
         My Specialty is <span class="subtle-highlight">Solving Problems</span>,
@@ -130,7 +132,7 @@ const { pending: projectsPending, data: projects } = await useLazyAsyncData(
           <template v-if="projects.visual.length > 0">
             <!-- Loop through the first 2 projects -->
             <app-project-card v-for="(project, index) in projects.visual.slice(0, 3)" :key="index"
-              :image="project.image" :title="project.name" :url="project.liveUrl" :isExternalUrl="true"
+              :image="project.image" :title="project.name" :url="project.liveUrl" :isExternalUrl="true" :description="project.description" :madeWith="project.MadeWith" 
               class="w-full" />
           </template>
           <p v-else>No projects available.</p>

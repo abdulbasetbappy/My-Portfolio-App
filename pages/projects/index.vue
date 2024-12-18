@@ -43,6 +43,8 @@ const { pending, data: projects } = await useLazyAsyncData(
           :image="project.image"
           :title="project.name"
           :url="project.liveUrl"
+          :description="project.description"
+          :madeWith="project.MadeWith"
         />
       </template>
     </section>

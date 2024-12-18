@@ -98,11 +98,17 @@ async function submit(e) {
     </app-feedback-card>
 
       <button
-        class="px-4 py-2 font-medium bg-green-500 rounded-lg w-36 text-zinc-800 focus-visible:global-focus focus-visible:ring-offset-zinc-50 dark:focus-visible:ring-offset-zinc-800 focus-visible:ring-offset-1 disabled:cursor-not-allowed disabled:bg-zinc-400"
+        class="px-4 py-2 font-medium bg-green-500 rounded-lg w-44 text-zinc-800 focus-visible:global-focus focus-visible:ring-offset-zinc-50 dark:focus-visible:ring-offset-zinc-800 focus-visible:ring-offset-1 disabled:cursor-not-allowed disabled:bg-zinc-400"
         :disabled="isSubmitting">
         <Icon v-if="isSubmitting" name="svg-spinners:3-dots-fade" />
-        <span v-else>Send Message</span>
+        <span v-else class="flex flex-row items-center justify-center gap-2">
+          <span>Send Message</span>
+           <Icon name="line-md:email-arrow-right" class="font-bold w-5 h-5"/>
+        </span>
       </button>
     </form>
+    <section class="mt-8">
+      <social-card/>
+    </section>
   </article>
 </template>
